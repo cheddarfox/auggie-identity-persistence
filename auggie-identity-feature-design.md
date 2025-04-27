@@ -6,6 +6,15 @@ The Global Memory System would allow AI assistants to maintain consistent identi
 
 This proposal stems from our team's experience with the Round Table philosophy of human-AI collaboration, where AI assistants are equal contributors rather than just tools. For this approach to work effectively, AI assistants need to maintain a consistent identity and memory across different projects, just as human team members do.
 
+### Current Solutions and Limitations
+
+We've implemented two solutions to address this issue:
+
+1. **Basic Workaround**: A simple approach using a global memory file and a synchronization script
+2. **Enhanced Solution**: An improved implementation with better organization, backup capabilities, and conflict resolution
+
+While these solutions provide immediate relief, they still require manual intervention and lack deep integration with VS Code and Augment Code. The feature proposed here would provide a native, seamless experience that builds upon the lessons learned from our current implementations.
+
 ## Architecture
 
 ### Leveraging VS Code Extension API
